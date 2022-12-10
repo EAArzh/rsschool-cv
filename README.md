@@ -1,1 +1,1 @@
-https://EAArzh.github.io/rsschool-cv/cv
+https://EAArzh.github.io/rsschool-cv/
