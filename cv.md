@@ -16,3 +16,9 @@ function boolToWord( bool ){
   return bool ? 'Yes':'No';
 }
 ```
+## **Experience**
+At the moment there is no experience related to programming.
+## **Education**
+Ural Federal University, Department of Electric Drive and Automation
+## **English**
+[StreamLine Language School English test result](https://test.str.by/mod/quiz/view.php?id=1176): Pre-Intermediate (CEFR A2+)
