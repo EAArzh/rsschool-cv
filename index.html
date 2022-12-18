@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/images.ico">
 </head>
-<link rel="stylesheet" href="style.css"
-<link rel="icon" href="./assets/images.ico"
+
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container main-container">
        <nav class="nav">
          <ul class="nav-list">
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -30,28 +31,28 @@
 
   <main class="main">
     <div class="container main-container">
-       <section class="section section-avatar" id="avatar">
-        <img src="./assets/img/avatar.jpg" alt=""class="avatar" width="240" height="240">
-       </section> 
+       <div class="section section-avatar" id="avatar">
+          <img src="./assets/img/avatar.jpg" alt class="section-profile-logo" width="240" height="240"> 
+       </div> 
        <section class="section section-profile" id="profile">
         <div class="section-profile-title">
-          <h1 class="section-title">EVGENII ARZHILOVSKII</h1>
-          <p>JUNIOR FRONT-END DEVELOPER</p>
+          <h1 class="section-title main-title">EVGENII ARZHILOVSKII</h1>
+          <h3 class="section-subtitle">JUNIOR FRONT-END DEVELOPER</h3>
           </div>    
        </section>
-       <section class="section" id="contacts">
+       <section class="section section-info" id="contacts">
         <h2 class="section-title">CONTACTS</h2>
           <ul class="section-list">
             <li class="section-item contacts-item">
                 Location: Astana, Kazakhstan
             </li>
-            <li class="selection-item contacts-item">
+            <li class="section-item contacts-item">
                 Phone: +7 705 471-66-47
             </li>
-            <li class="selection-item contacts-item">
+            <li class="section-item contacts-item">
                 Email: <a href="malito:arzhilovskiy@yandex.ru" title="email">arzhilovskiy@yandex.ru</a>
             </li>
-            <li class="selection-item contacts-item">
+            <li class="section-item contacts-item">
                 Github: <a href="https://github.com/EAArzh" title="github">EAArzh</a>
             </li>
             <li class="section-item contacts-item">
@@ -59,13 +60,13 @@
             </li>
           </ul>    
        </section>
-       <section class="section" id="summary">
+       <section class="section section-info" id="summary">
         <h2 class="section-title">SUMMARY</h2>
         <p>
             I am 30 years old and most of the time I worked in electrical sales, in several foreign companies. Now I would like to gain new knowledge in order to have a challenge and motivation to develop in a new field for myself. That is why my goal is to gain knowledge in the field of front-end development.
         </p>    
        </section>
-       <section class="section" id="skills">
+       <section class="section section-info" id="skills">
         <h2 class="section-title">SKILLS</h2>
         <ul class="section-list">
             <li class="section-item">
@@ -76,19 +77,19 @@
             </li>
           </ul>   
        </section>
-       <section class="section" id="code">
+       <section class="section section-info" id="code">
         <h2 class="section-title">CODE</h2>
         <pre class="pre"><code>function boolToWord( bool ){
             return bool ? 'Yes':'No';
           }</code></pre>
        </section>
-       <section class="section" id="courses">
+       <section class="section section-info" id="courses">
         <h2 class="section-title">COURSES</h2>
         <ul class="section-list">
             <li class="section-item">
                 Hexlet<span> - HTML for beginner</span>
             </li>
-            <li calss="section-item">
+            <li class="section-item">
                 Hexlet<span> - CSS for beginner</span>
             </li>
             <li class="section-item">
@@ -97,18 +98,19 @@
         </ul>
           
        </section>
-       <section class="section" id="projects">
+       <section class="section section-info" id="projects">
         <h2 class="section-title">PROJECTS</h2>
-        <a href="https://eaarzh.github.io/rsschool-cv/">RSSchool-CV</a>
+        <p class="section-link"><a href="https://eaarzh.github.io/rsschool-cv/">RSSchool-CV</a></p>
        </section>
-       <section class="section" id="education">
+       <section class="section section-info section-e" id="education">
         <h2 class="section-title">EDUCATION</h2>
         <p>Ural Federal University, Department of Electric Drive and Automation</p>
        </section>
-       <section class="section" id="english">
+       <section class="section section-info section-e" id="english">
         <h2 class="section-title">ENGLISH</h2>
         <p>StreamLine Language School English test result</p>
-        <a href="https://test.str.by/mod/quiz/view.php?id=1176">Pre-Intermediate (CEFR A2+)</a>
+        <p class="section-link"><a href="https://test.str.by/mod/quiz/view.php?id=1176">Pre-Intermediate (CEFR A2+)</a></p>
+        <p></p>
        </section>
 
     </div>
